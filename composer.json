@@ -11,6 +11,11 @@
             "email": "cordoval@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Cordoval\\PhpSpec": "src"
+        }
+    },
     "require": {
         "php": ">=5",
         "phpspec/phpspec": "dev-master"
